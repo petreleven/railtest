@@ -8,4 +8,4 @@ def server():
     return "hello"
 
 
-app.run(debug=True)
+app.run(debug=True, port="5000")
