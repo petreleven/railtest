@@ -1,2 +1,4 @@
 [start]
 cmd = "gunicorn hello:app"
+[phases.setup]
+aptPkgs = ['libgl1']
