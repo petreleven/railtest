@@ -1,4 +1,4 @@
 [start]
 cmd = "gunicorn hello:app"
 [phases.setup]
-aptPkgs = ['libgl1']
+aptPkgs = ['libgl1', 'ffmpeg' ,'libsm6' ,'libxext6' ]
